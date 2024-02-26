@@ -19,7 +19,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "test github action ---HOPE----.",
+             "test dev github action ---HOPE----.",
              status_code=200
         )
 
